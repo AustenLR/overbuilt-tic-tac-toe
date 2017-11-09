@@ -1,0 +1,56 @@
+.square {
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 1px solid black;
+  box-shadow: 10px 10px grey;
+  text-align: center;
+  background: #ebd4f9;
+  border-radius: 10px;
+  animation: fadein 5s;
+}
+
+.square:hover {
+  background: #f2f4ab;
+}
+
+body {
+  background: #cdddf7;
+}
+
+table {
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  background-color: lightgreen;
+  border-radius: 28px;
+  padding: 10px, 20px;
+}
+
+button:hover {
+  background-color: #f2f4ab;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
